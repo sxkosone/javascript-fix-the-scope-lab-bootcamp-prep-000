@@ -30,5 +30,7 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 funkyFunction();
 console.log(funkyFunction());
-var theFunk = funkyFunction();
+var test = funkyFunction();
+var theFunk = test();
+console.log(theFunk);
 
